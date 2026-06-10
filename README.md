@@ -1,0 +1,1 @@
+# mini_aiffelthon_medigation
