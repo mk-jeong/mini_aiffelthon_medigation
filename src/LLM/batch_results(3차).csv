@@ -1,0 +1,51 @@
+﻿uid,filename,label,problems,track,correctness,completeness,hallucination,readability,total,verdict,feedback,elapsed
+3239,3239_IM-1534-1001.dcm.png,Normal,normal,A,4,4,3,3,14,PASS,'종격동(가슴 중앙의 장기 주변 부위)'과 같이 의료 용어에 대한 간단한 풀이를 1-2개 추가하면 가독성이 더욱 향상될 것입니다.,17.1
+2667,2667_IM-1146-1001.dcm.png,Normal,normal,B,4,4,3,4,15,PASS,"""추천 의료기관 유형"" 섹션은 원문 정보 없이 임의로 추가된 부분이므로, 실제 환자 소견에 직접 기반한 콘텐츠로만 구성하는 것이 더 적절합니다.",17.4
+925,925_IM-2425-2001.dcm.png,Abnormal,Pulmonary Edema;Cardiomegaly;Thoracic Vertebrae,B,4,4,3,4,15,PASS,"정확성과 완전성 모두 우수하며, 전문용어 풀이로 환자 접근성이 높음. 추가 개선 사항 없음",19.3
+1067,1067_IM-0048-1001.dcm.png,Normal,normal,B,4,4,2,3,13,PASS,"정상 흉부 X선 검사 결과에 상급종합병원 추천은 부적절하며, 의료용어(국소 경화, 기흉, 폐 결절)에 대한 환자 맞춤형 설명 추가 필요",19.0
+2838,2838_IM-1252-1001.dcm.png,Normal,normal,B,4,4,2,4,14,PASS,"정상 검사 결과에 대해 3차 의료기관 진료 권장은 과도하므로, 현 상태 유지 및 담당의 상담 안내로 수정 권장",18.7
+319,319_IM-1505-1001.dcm.png,Normal,normal,B,4,4,2,4,14,PASS,"추적 관찰 권고는 원문에 근거가 없으므로 삭제하고, 정상 결과이므로 단순 정보 전달 수준으로 축소하는 것이 적절함",20.5
+1843,1843_IM-0546-1001.dcm.png,Normal,normal,B,4,4,2,3,13,PASS,"상급종합병원 추천은 원문 근거 없이 추가된 부분이므로 제거하거나, 추천 대신 '담당의와 상담' 안내로 수정 권장",18.3
+3203,3203_IM-1513-1001.dcm.png,Normal,normal,A,4,4,3,4,15,PASS,"전반적으로 우수한 품질이나, 원문에 명시되지 않은 구체적 뼈 부위명을 추가한 점은 필요시 주의 필요",23.1
+3523,3523_IM-1721-1001.dcm.png,Abnormal,Surgical Instruments;Deformity,A,4,4,3,3,14,PASS,"'종격동'을 '가슴 중앙부'로만 표기하고, '부분유방절제술'도 괄호 영문 제거 또는 '유방 일부 제거 수술' 등으로 단순화하면 더 좋음",20.3
+1529,1529_IM-0342-0001-0001.dcm.png,Abnormal,Density;Atherosclerosis;Spine;Surgical Instruments;Diaphragm,B,0,0,0,0,0,FAIL,판정 실패,22.6
+3187,3187_IM-1503-1001.dcm.png,Abnormal,Cardiomegaly;Pulmonary Congestion;Pleural Effusion;Heart Fai,B,4,4,3,3,14,PASS,"전문용어(혈관충혈, 흉막삼출 등)에 대한 일반인 수준의 간단한 설명 추가 시 가독성 향상 가능",19.1
+2894,2894_IM-1296-4001-0001.dcm.png,Normal,"Tube, Inserted;Catheters, Indwelling;Catheters, Indwelling;S",B,4,2,3,4,13,PASS,원본의 '경부 연부조직에 수술 관련 음영 겹침' 소견을 추가하면 완벽함,21.2
+1407,1407_IM-0260-1001.dcm.png,Abnormal,Granuloma;Spondylosis,A,4,4,4,3,15,PASS,"육아종, 척추증 등 일반인이 생소할 수 있는 의료용어에 괄호 설명을 추가하면 더욱 개선됨",17.4
+1901,1901_IM-0585-1001.dcm.png,Normal,Surgical Instruments,B,4,4,3,3,14,PASS,"전문용어(심종격동, 폐혈관상, 기흉 등)에 간단한 괄호 설명을 추가하면 초등고학년 수준의 이해도를 확보할 수 있습니다.",20.1
+3781,3781_IM-1897-1001.dcm.png,Normal,normal,B,4,4,2,3,13,PASS,"'심종격(심장 주변 부위)', '골내(뼈 내부)', '골구조(뼈 구조)' 등 남은 의료용어를 일상어로 풀이하면 가독성 향상 가능",22.3
+2413,2413_IM-0959-1001.dcm.png,Normal,normal,B,4,4,3,4,15,PASS,"의학적 정확성과 환자 이해도가 우수하나, 원문에 없는 의료기관 정보 추가 시 출처 명시 또는 별도 섹션 분리 권고",24.7
+710,710_IM-2273-1001.dcm.png,Abnormal,Calcified Granuloma,B,4,4,3,4,15,PASS,석회화 육아종의 원인(과거 감염)을 원문 명시 없이 추가한 부분을 제거하거나 '일반적으로' 표현을 추가하면 더욱 개선됨,24.0
+3883,3883_IM-1971-1001.dcm.png,Normal,normal,B,4,2,2,4,12,FAIL,"정상 흉부 X선 검사에 대해 상급종합 3차 의료기관 진료를 권장하는 것은 부적절하며, '[비식dentified]' 항목 정보 누락을 보완해야 함",18.2
+3637,3637_IM-1804-1001.dcm.png,Normal,normal,B,4,4,2,3,13,PASS,"정상 흉부 X선 소견에 대해 상급종합병원 진료를 추천하는 부분은 임상 타당성 검토 필요하며, 전문용어(폐포응축, 흉막삼출)에 더 친화적인 설명 추가 권장",19.0
+843,843_IM-2366-1001.dcm.png,Abnormal,Calcified Granuloma;Thoracic Vertebrae,B,4,4,4,3,15,PASS,'퇴행성 변화'를 '척추뼈의 노화에 따른 변화' 등으로 풀이하면 가독성 만점 달성 가능,21.6
+1883,1883_IM-0572-1001.dcm.png,Normal,Surgical Instruments,B,4,4,3,3,14,PASS,"전문용어(종격동, 중심기도, 폐용적)에 대한 간단한 일상어 병기나 설명을 추가하면 환자 이해도를 더욱 향상시킬 수 있습니다.",19.5
+1085,1085_IM-0059-1001.dcm.png,Abnormal,Lung;Opacity;Cicatrix;Pulmonary Atelectasis,B,4,3,3,3,13,PASS,"'낮은 폐용적' 소견을 추가하고, 의학용어(무기폐=폐가 쭈그러짐, 심종격동=심장과 중앙 구조)에 대한 간단한 설명을 괄호로 추가하면 더 완성도 높음",20.9
+527,527_IM-2137-1001.dcm.png,Normal,normal,B,4,4,3,3,14,PASS,"'유리 공기'를 '배 안의 자유로운 공기'로, '골 구조'를 '뼈'로 단순화하면 더욱 명확함",19.4
+1406,1406_IM-0259-1001.dcm.png,Normal,Lung,B,4,4,3,4,15,PASS,"진료 권고 부분에서 '상급종합병원' 지정이 원본에 근거 없으므로, 단순히 '호흡기내과 진료 권고' 수준으로 완화하면 더 정확할 수 있습니다.",19.4
+3964,3964_IM-2028-1001.dcm.png,Abnormal,Lung;Pulmonary Emphysema;Cicatrix,A,4,4,4,3,15,PASS,'과팽창'을 '공기가 과도하게 차있는 상태' 등으로 명시 설명하면 readability 4점 달성 가능,19.2
+90,90_IM-2407-1001.dcm.png,Normal,Spine,B,4,4,3,3,14,PASS,"'국소 기도공간 경화', '종격동'과 같은 핵심 의학용어에 대해 괄호 안 쉬운 설명을 추가하면 readability 4점 달성 가능합니다.",19.2
+1459,1459_IM-0297-1001.dcm.png,Abnormal,Calcified Granuloma;Cardiomegaly,B,4,4,3,3,14,PASS,'석회화된 육아종'을 '과거 감염으로 인한 흉터 조직이 딱딱하게 굳은 것으로 더 이상 진행되지 않는 상태'처럼 더 단순화하면 환자 이해도 향상 가능,21.4
+790,790_IM-2329-1001.dcm.png,Normal,Surgical Instruments,A,4,4,3,3,14,PASS,"'종격동' 용어를 '가슴 중앙'로 더 단순화하고, 환자 눈높이의 추가 설명('수술 클립은 과거 수술의 흔적입니다' 등)을 1-2문장 추가하면 readability 4점 달성 가능",16.5
+153,153_IM-0343-1001.dcm.png,Abnormal,"Catheters, Indwelling;Pleural Effusion",B,0,0,0,0,0,FAIL,판정 실패,24.1
+648,648_IM-2226-4004.dcm.png,Abnormal,Calcified Granuloma;Lung,B,4,4,2,3,13,PASS,"기본 진료 의뢰 수준 판단 근거를 명시하고, 남은 전문용어(기도폐색, 흉막삼출 등) 풀어쓰기로 완성도 향상 가능",20.0
+3693,3693_IM-1844-1001.dcm.png,Abnormal,normal,B,4,4,3,2,13,PASS,"정확성과 완전성은 우수하나, 환자 이해도 향상을 위해 의료 전문용어에 대한 쉬운 설명 또는 일상어 변환을 추가하면 더욱 개선될 것",22.9
+1086,1086_IM-0059-1001.dcm.png,Abnormal,"Deformity;Fractures, Bone",B,4,4,3,3,14,PASS,"'기낭질환', '종격동', '폐혈관' 등 핵심 의학용어를 환자 눈높이에 맞게 일상어로 풀이하면 더욱 개선 가능",19.7
+812,812_IM-2343-1001.dcm.png,Abnormal,Pulmonary Emphysema;Surgical Instruments,B,4,4,4,3,15,PASS,"'폐기종'→'폐 조직이 손상되고 파괴되는 질환', '색전 코일'→'출혈을 막기 위해 혈관에 삽입한 장치' 등 3-4개 핵심 의학용어에 괄호 설명을 추가하면 4점 완성 가능",19.4
+135,135_IM-0227-1001.dcm.png,Normal,normal,B,4,4,3,4,15,PASS,심장 크기 '정상 범위'의 임상적 의미(예: 폐부종 가능성 배제)에 대한 추가 설명이 있으면 더욱 완성도 높을 것,16.9
+535,535_IM-2142-1001.dcm.png,Abnormal,Scoliosis;Scoliosis;Osteophyte;Opacity;Cicatrix;Pulmonary At,B,4,4,4,3,15,PASS,"무기폐는 '폐가 부분적으로 쭉 내려앉음', 종격동은 '가슴 중앙부' 등으로 간단히 풀이하면 가독성이 더욱 향상될 것으로 예상됨.",22.0
+3341,3341_IM-1602-1001.dcm.png,Normal,normal,B,4,3,2,3,12,PASS,"원본의 '[비식별]' 항목을 명시적으로 표기하고, 환자 현재 진료 상태에 대한 추정 표현을 회피하며, 필요시 의료용어 풀이를 더욱 상세히 제공하면 완성도 향상",17.7
+1267,1267_IM-0179-1001.dcm.png,Normal,normal,B,4,4,2,4,14,PASS,"정상 X선 검사 결과에 대해 상급종합병원 추천이 임상적으로 부적절하므로, 의료기관 추천 로직을 '추가 소견 필요 시' 조건부로 수정 권장.",19.0
+1273,1273_IM-0183-1001.dcm.png,Abnormal,Cardiomegaly;Lung,B,4,4,3,4,15,PASS,"원본 사실 정확성, 완전성, 환각 통제, 가독성 모두 우수하나, 원문에 근거 없는 병원 추천 내용은 원본과의 직접 연관성을 명시하면 더욱 투명함",19.3
+1547,1547_IM-0357-1001.dcm.png,Normal,Epicardial Fat,B,4,4,4,4,16,PASS,"모든 평가항목에서 최고 점수. 사실 정확성, 정보 완전성, 환각 통제, 환자 이해도 모두 우수함",19.8
+2777,2777_IM-1217-1001.dcm.png,Abnormal,Cicatrix;Pulmonary Atelectasis,B,0,0,0,0,0,FAIL,판정 실패,22.1
+2848,2848_IM-1256-1001.dcm.png,Abnormal,Cardiomegaly;Calcinosis,B,4,4,3,3,14,PASS,"'석회화', '폐문부', '흉막삼출액', '기흉' 등 핵심 의학용어에 대한 괄호 설명 추가로 가독성 향상 가능",16.5
+322,322_IM-1521-1001.dcm.png,Normal,Markings;Spine,A,4,4,3,3,14,PASS,간질성 음영과 퇴행성 변화의 의미를 한두 문장으로 더 설명하면 환자 이해도가 향상될 것,18.2
+1635,1635_IM-0415-1001.dcm.png,Abnormal,Calcified Granuloma;Opacity;Cicatrix;Pulmonary Atelectasis;G,B,4,4,3,4,15,PASS,"원본의 '[비식별]'라는 표기가 AI 리포트에서 제거되었는데, 반흔/무기폐 감별 표현의 완전성을 위해 명시하는 것이 더 나을 수 있습니다.",21.6
+1171,1171_IM-0116-1001.dcm.png,Normal,Lung;Markings;Airspace Disease,B,4,4,3,3,14,PASS,"'기낭질환(폐포 영역의 액체 또는 삼출물)', '기관지혈관 혼잡(혈관과 기도의 부음)' 등 전문용어에 괄호 설명을 추가하면 readability 4점 달성 가능",21.9
+3196,3196_IM-1507-1001.dcm.png,Normal,normal,A,4,4,3,3,14,PASS,"""폐가 팽창되어 있다""를 ""폐에 공기가 잘 들어있다"" 등으로 일반인 수준으로 추가 단순화하면 더욱 개선될 수 있습니다.",15.7
+3939,3939_IM-2010-1001.dcm.png,Normal,normal,B,4,4,2,3,13,PASS,"정상 결과에 상급종합병원 추천은 환자 불안을 야기할 수 있으므로, 정상 소견에는 필수 진료 권고를 생략하고 '증상이 있을 시 의사 상담' 수준으로 완화하기를 권장합니다.",20.6
+692,692_IM-2258-1001.dcm.png,Abnormal,Calcified Granuloma;Spine,B,4,4,3,3,14,PASS,"석회화된 육아종, 기흉, 종판변화의 의미를 괄호 안에 간단한 일상어(예: 폐 흉터, 폐 공기 누출, 척추뼈 변화)로 추가하면 완성도 향상",21.0
+2381,2381_IM-0941-1001.dcm.png,Abnormal,Calcified Granuloma,A,4,4,3,3,14,PASS,'육아종성 석회화'를 '과거 염증으로 인한 폐 부위의 석회화'로 더 단순 표현하면 가독성 향상,18.9
+3485,3485_IM-1694-2002.dcm.png,Abnormal,Lung;Pulmonary Emphysema;Calcinosis;Calcified Granuloma,B,4,4,4,3,15,PASS,"매우 우수한 수준이나, '초점성 기도공간 질환'과 '육아종'을 더 쉬운 표현으로 풀이하면 readability를 4점으로 개선 가능",20.5
+1533,1533_IM-0344-1001.dcm.png,Normal,normal,B,4,4,1,4,13,FAIL,정상 흉부 엑스레이 결과에 대해 상급종합병원 3차 진료를 권장하는 것은 임상적으로 부적절합니다. 추가 진료 필요 여부는 임상 증상과 의사의 판단에 따라 결정되어야 합니다.,18.8
